@@ -283,7 +283,7 @@ a:hover {
     padding-left: 0;
 }
 
-#bloc-1-hero h1 {
+.bloc-1-hero h1 {
     font-size: 32px;
 }
 
@@ -673,7 +673,7 @@ a {
     text-align: center;
     font-weight: lighter;
     max-width: 520px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 p {
@@ -682,7 +682,7 @@ p {
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin:auto;
 }
 
 .h1 {
@@ -701,7 +701,9 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
 }
 
 h2 {
@@ -718,7 +720,7 @@ h3 {
 
 .med-width-whitespace {
     max-width: 800px;
-    margin: auto auto auto auto;
+    margin:auto;
     box-shadow: 0px 0px 0px #000000;
 }
 
@@ -780,12 +782,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #321E0E!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .ltc-white {
