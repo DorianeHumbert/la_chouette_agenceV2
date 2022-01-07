@@ -820,11 +820,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.png");
+    background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/1image-de-presentation.png");
+    background-image: url("img/1image-de-presentation.jpg");
 }
 
 /* Modifs apportées */
@@ -832,7 +832,6 @@ h4 {
     max-width: 100%;
 }
 /* Fin modifs */
-
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
