@@ -827,6 +827,12 @@ h4 {
     background-image: url("img/1image-de-presentation.jpg");
 }
 
+/* Modifs apportées */
+.container img{
+    max-width: 100%;
+}
+/* Fin modifs */
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
