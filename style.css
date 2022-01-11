@@ -687,7 +687,7 @@ h4 {
 }
 .black{
     color: #000000 !important;
-    font-size: 16px;
+    font-size: 15px;
 }
 .iconSocial{
     font-size: 30px;
@@ -699,11 +699,15 @@ h4 {
 .degrade{
     background-image: linear-gradient(#f51d36 , #ffdf5d);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;    
+    -webkit-text-fill-color: transparent;
+    font-size: 32px;    
 }
 .contact__maps{
     font-size: 15px;
     text-align: center;
+}
+blockquote p{
+    font-size: 18px;
 }
 /* Fin modifs */
 @media (max-width: 1024px) {
