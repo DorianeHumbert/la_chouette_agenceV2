@@ -710,6 +710,11 @@ h4 {
 blockquote p{
     font-size: 18px;
 }
+.texture-paper::before {
+    background: url("img/texture-paper.webp");
+    background-size: 280px 280px;
+    opacity: 0.7;
+}
 /***************************** Fin modifs *****************************/
 @media (max-width: 1024px) {
     .bloc {
