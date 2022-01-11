@@ -694,7 +694,7 @@ h4 {
     font-size: 30px;
 }
 .hero-bloc-text {
-    font-size: 50px;
+    font-size: 40px;
     font-family: "Open Sans";
 }
 .degrade{
@@ -714,6 +714,10 @@ blockquote p{
     background: url("img/texture-paper.webp");
     background-size: 280px 280px;
     opacity: 0.7;
+}
+.container>h2{
+    max-width: 70%;
+    margin: auto;
 }
 /***************************** Fin modifs *****************************/
 @media (max-width: 1024px) {
