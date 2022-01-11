@@ -681,9 +681,10 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
 }
-/* Modifs apportées */
+/************************* Modifs apportées ***************************/
 .container img{
     max-width: 100%;
+    margin: auto;
 }
 .black{
     color: #000000 !important;
@@ -709,7 +710,7 @@ h4 {
 blockquote p{
     font-size: 18px;
 }
-/* Fin modifs */
+/***************************** Fin modifs *****************************/
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
