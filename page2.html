@@ -23,10 +23,9 @@
 </head>
 <body>
 <!-- Principal conteneur -->
-<div class="page-container">
-    
+<div class="page-container"> 
 <!-- bloc-0 -->
-<section class="bloc bgc-white l-bloc ">
+<header class="bloc bgc-white l-bloc">
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
@@ -47,7 +46,7 @@
 			</div>
 		</nav>
 	</div>
-</section>
+</header>
 <!-- bloc-0 END -->
 <!-- bloc-6 -->
 <section class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper">
@@ -64,35 +63,36 @@
 <!-- bloc-7 -->
 <section class="bloc bgc-white l-bloc">
 	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
-					<div class="form-group">
-						<label for="name">Nom</label>
-						<input id="name" class="form-control" required placeholder="La chouette agence" />
-					</div>
-					<div class="form-group">
-						<label for="email">Adresse email</label>
-						<input id="email" class="form-control" type="email" required placeholder="contact@lachouetteagence.com"/>
-					</div>
-					<div class="form-group">
-						<label for="input_504">Comment nous avez-vous connu ?</label> 
-						<input class="form-control" type="email" required id="input_504" placeholder="Réseaux? Bouche à oreilles?"/>
-					</div>
-					<div class="form-group">
-						<label for="message">Brief de votre projet</label><textarea id="message" class="form-control" rows="4" cols="50" required placeholder="Décrivez-nous votre projet en y ajoutant autant de détails que nécessaire"></textarea>
-					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">Envoyer</button>
-				</form>
+		<h2>Formulaire de contact</h2>
+			<div class="row">
+				<div class="col-sm-6">
+					<form id="form_1">
+						<div class="form-group">
+							<label for="name">Nom</label>
+							<input id="name" class="form-control" required placeholder="La chouette agence" />
+						</div>
+						<div class="form-group">
+							<label for="email">Adresse email</label>
+							<input id="email" class="form-control" type="email" required placeholder="contact@lachouetteagence.com"/>
+						</div>
+						<div class="form-group">
+							<label for="input_504">Comment nous avez-vous connu ?</label> 
+							<input class="form-control" type="text" required id="input_504" placeholder="Réseaux? Bouche à oreilles?"/>
+						</div>
+						<div class="form-group">
+							<label for="message">Brief de votre projet</label><textarea id="message" class="form-control" rows="4" cols="50" required placeholder="Décrivez-nous votre projet en y ajoutant autant de détails que nécessaire"></textarea>
+						</div> 
+						<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">Envoyer</button>
+					</form>
+				</div>
+				<div class="col-sm-6">
+					<p class="contact__maps">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.0829506555824!2d4.827978615774401!3d45.769527821038466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb020f3664e9%3A0x13e3d71752922c1f!2s2%20Pl.%20Sathonay%2C%2069001%20Lyon!5e0!3m2!1sfr!2sfr!4v1641901817881!5m2!1sfr!2sfr" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+						<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
+						<a href="mailto:contact@lachouetteagence.com">contact@lachouetteagence.com</a>
+					</p>
+				</div>
 			</div>
-			<div class="col-sm-6">
-				 <p class="contact__maps">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.0829506555824!2d4.827978615774401!3d45.769527821038466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb020f3664e9%3A0x13e3d71752922c1f!2s2%20Pl.%20Sathonay%2C%2069001%20Lyon!5e0!3m2!1sfr!2sfr!4v1641901817881!5m2!1sfr!2sfr" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-					<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
-					<a href="mailto:contact@lachouetteagence.com">contact@lachouetteagence.com</a>
-				</p>
-			</div>
-		</div>
 	</div>
 </section>
 <!-- bloc-7 END -->
