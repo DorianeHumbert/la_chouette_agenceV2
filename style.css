@@ -719,13 +719,7 @@ blockquote p{
     max-width: 70%;
     margin: auto;
 }
-.col-sm-6 img{
-    width: 320px;
-    height: 270px;
-}
-.font-face{
-    font-display: swap;
-}
+
 /***************************** Fin modifs *****************************/
 @media (max-width: 1024px) {
     .bloc {
