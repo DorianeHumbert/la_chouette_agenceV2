@@ -720,8 +720,11 @@ blockquote p{
     margin: auto;
 }
 .col-sm-6 img{
-    width: 320px;
+    width: 270px;
     height: 320px;
+}
+.font-face{
+    font-display: swap;
 }
 /***************************** Fin modifs *****************************/
 @media (max-width: 1024px) {
