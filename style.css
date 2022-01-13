@@ -588,7 +588,7 @@ p {
     justify-content: space-around;
 }
 h2 {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.4em;
 }
 h3 {
@@ -871,7 +871,7 @@ blockquote p{
     }
     .navbar-brand img {
         max-height: 40px;
-        width: auto;
+        width: 214px;
     }
     .nav-invert .navbar-header {
         float: none;
