@@ -731,18 +731,10 @@ blockquote p{
     width: 100px;
     height: 100px;
 }
-iframe{
-    width:400px; 
-    height:350px;
-}
 @media (max-width: 767px){
     .col-sm-6 img{
         width: 300px;
         height: 300px;
-    }
-    iframe{
-        width:400px; 
-        height:350px;
     }
 }
 /***************************** Fin modifs *****************************/
