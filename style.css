@@ -733,8 +733,8 @@ blockquote p{
 }
 @media (max-width: 767px){
     .col-sm-6 img{
-        width: 320px;
-        height: 320px;
+        width: 300px;
+        height: 300px;
     }
 }
 /***************************** Fin modifs *****************************/
