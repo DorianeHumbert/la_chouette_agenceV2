@@ -719,9 +719,17 @@ blockquote p{
     max-width: 70%;
     margin: auto;
 }
+.navbar-brand img{
+    width: 214px;
+    height: 40px;
+}
 .col-sm-6 img{
     width: 270px;
     height: 270px;
+}
+.col-sm-12 img{
+    width: 100px;
+    height: 100px;
 }
 @media (max-width: 767px){
     .col-sm-6 img{
