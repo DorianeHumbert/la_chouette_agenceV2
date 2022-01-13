@@ -698,7 +698,7 @@ h4 {
     font-family: "Open Sans";
 }
 .degrade{
-    background-image: linear-gradient(#f51d36 , #ffdf5d);
+    background-image: linear-gradient(#ff5b6e, #ffdf5d);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 32px;    
